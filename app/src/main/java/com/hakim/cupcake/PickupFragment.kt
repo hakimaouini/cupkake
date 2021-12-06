@@ -32,6 +32,7 @@ class PickupFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding?.apply {
+
             nextButton.setOnClickListener { goToNextScreen() }
         }
     }
